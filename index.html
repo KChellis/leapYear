@@ -6,9 +6,19 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
-    <title></title>
+    <title>Leap Year</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Leap Year Checker</h1>
+      <form class="form1">
+        <label for="year">Enter a year to check if it is a leap year:</label>
+        <input id="year" type="number" name="year" class="form-control" required>
+        <button type="submit" name="button">Is it a leap year?</button>
+      </form>
+      <div class="result">
+        <p><span id="input"></span> is <span id="not"></span>a leap year!</p>
+      </div>
+    </div>
   </body>
 </html>
